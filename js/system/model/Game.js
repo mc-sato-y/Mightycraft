@@ -4,7 +4,7 @@ window.onload = function() {
     var game = new Game(640, 320);
 
     // ゲームで使う素材を読み込む
-    game.preload('./js/enchant/images/chara1.png')
+    game.preload('./js/enchant/images/chara1.png');
 
     game.onload = function() {
         // クマを配置
